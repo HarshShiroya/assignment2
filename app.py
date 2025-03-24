@@ -5,4 +5,5 @@ app = Flask(__name__)
 def hello_cloud():
   return 'Hello Cloud! How are you?'
 
-app.run(host='0.0.0.0')
+app.run(host='0.0.0.0', port=8080)
+
